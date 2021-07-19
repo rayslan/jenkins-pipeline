@@ -4,8 +4,11 @@ node {
 
     timestamps {
         stage('Download Repo') {
-             sh 'echo \'Hello World\''
-}
+             git 'https://github.com/rayslan/terraform-aws-ec2.git'
+             }
+        stage('Update Debian') {
+            sh 'echo \'Hello World\''
+        }
 
     
 
