@@ -1,1 +1,5 @@
-powershell 'echo \'Hello World\''
+node {
+    
+    powershell 'echo \'Hello World\''
+
+}
