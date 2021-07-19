@@ -6,6 +6,13 @@ node {
         stage('Download Repo') {
              git 'https://github.com/rayslan/terraform-aws-ec2.git'
              }
+
+        stage('Download Repo') {
+             sh '''terraform init
+                terraform apply --auto-approve'''
+             }
+
+
         
 
     
