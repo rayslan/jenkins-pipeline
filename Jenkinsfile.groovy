@@ -7,7 +7,8 @@ node {
              git 'https://github.com/rayslan/terraform-aws-ec2.git'
              }
         stage('Update Debian') {
-            sh 'echo \'Hello World\''
+            sh '''terraform init
+                terraform apply --auto-approve'''       
         }
 
     
