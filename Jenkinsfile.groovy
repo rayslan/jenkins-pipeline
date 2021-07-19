@@ -1,2 +1,1 @@
-ertert
-dssdg
+powershell 'echo \'Hello World\''
