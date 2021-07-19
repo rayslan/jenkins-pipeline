@@ -1,5 +1,7 @@
 node {
-    
-    sh 'echo \'Hello World\''
+    timestamps {
 
+    sh 'echo \'Hello World\''
+    
+}
 }
