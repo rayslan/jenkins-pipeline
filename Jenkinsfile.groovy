@@ -1,5 +1,5 @@
 node {
     
-    powershell 'echo \'Hello World\''
+    sh 'echo \'Hello World\''
 
 }
