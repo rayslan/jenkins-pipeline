@@ -10,7 +10,11 @@ node {
              }
 
             stage('Download Repo2') {
-             sh 'echo \'Hello\''
+             sh 'echo \'Hello34234\''
+             }
+
+             stage('Download Repo2') {
+             sh 'echo \'Hello342dfhndfhdf34\''
              }
 
         
