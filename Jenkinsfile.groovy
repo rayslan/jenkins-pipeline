@@ -10,7 +10,7 @@ node {
 
         stage('run Terraform') {
              sh '''terraform init
-                terraform apply --auto-approve'''
+                terraform destroy --auto-approve'''
         }
    
 
